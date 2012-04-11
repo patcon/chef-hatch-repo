@@ -9,7 +9,7 @@ run_list(
 
 default_attributes({
   :chef_server => {
-    :webui_enabled => true
+    :webui_enabled => false
   },
   :chef_client => {
     :server_url => "http://127.0.0.1:4000"
